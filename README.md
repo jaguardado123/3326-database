@@ -23,7 +23,9 @@ To learn more about SQL databases visit: https://www.w3schools.com/sql/
 
 ### Create a table
 
-Any command sent to the database is known as a **query**. To create a table in SQL, run a query using the format shown below.
+Any command sent to the database is known as a **query**. To create a table in SQL you must specify the *table name* and the *column names* along with the *data type* they'll hold. Use a similar format to the query shown below.
+
+To learn more about SQL data types visit: https://www.geeksforgeeks.org/sql/sql-data-types/ 
 
 ```sql
 CREATE TABLE table_name ( column_name1 DATA_TYPE, column_name2 DATA_TYPE, ... );
