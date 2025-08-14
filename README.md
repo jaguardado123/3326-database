@@ -19,6 +19,8 @@ These databases use Structured Query Language (SQL) as the standard programming 
 
 The following commands can be executed in your `src/commands.sql` file. Simply high light the query, right-click, and select "Run Query".
 
+To learn more about SQL databases visit: https://www.w3schools.com/sql/ 
+
 ### Create a table
 
 Any command sent to the database is known as a **query**. To create a table in SQL, run a query using the format shown below.
