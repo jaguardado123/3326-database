@@ -1,6 +1,6 @@
-# Lab Assignment 25
+# Lab 23
 
-The purpose of this lab assignment is to familiarize yourself with SQL databases and the SQL programming language.
+The purpose of this lab assignment is to familiarize yourself with **SQL databases** and the **SQL programming language**.
 
 ### Before you begin
 
@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS table_name (column_name1 DATA_TYPE, column_name2 DATA
 To insert a new row of information or entry, run the query below.
 
 ```sql
-INSERT INTO table_name ( column_name1, column_name2, ... ) VALUES ( "example", 123, ... );
+INSERT INTO table_name ( column_name1, column_name2, ... ) VALUES ( 'example', 123, ... );
 ```
 
 ### Read from a table
@@ -56,7 +56,7 @@ SELECT * FROM table_name;
 Or you can read from a specific entry or row.
 
 ```sql
-SELECT * FROM table_name WHERE column_nameX = "some value";
+SELECT * FROM table_name WHERE column_nameX = 'some value';
 ```
 
 ### Delete from a table
@@ -64,7 +64,7 @@ SELECT * FROM table_name WHERE column_nameX = "some value";
 To delete from a row or entry from a table you can use the command below.
 
 ```sql
-DELETE FROM table_name WHERE column_nameX = "some value";
+DELETE FROM table_name WHERE column_nameX = 'some value';
 ```
 
 What if you want to delete all rows or entries? In that case, use this command instead.
@@ -81,28 +81,40 @@ Your assignment is to create the **amazon** and **clinic** tables shown below an
 
 | id | name | email | prime_member |
 | --- | --- | --- | --- |
-| 112 | "Bob Bobbert" | "bob@gmail.com" | 1 |
-| 117 | "Carl Carlton" | "carl@yahoo.com" | 0 |
-| 127 | "Jane Janeson" | "jane@aol.com" | 1 |
-| 186 | "Dan Danbert" | "dan@hotmail.com" | 0 |
+| 112 | 'Bob Bobbert' | 'bob@gmail.com' | 1 |
+| 117 | 'Carl Carlton' | 'carl@yahoo.com' | 0 |
+| 127 | 'Jane Janeson' | 'jane@aol.com' | 1 |
+| 186 | 'Dan Danbert' | 'dan@hotmail.com' | 0 |
 
 **Complete the following tasks:**
 
 - Print out only users who are prime members.
 
-- Bob has closed his Amazon account, so please remove him after completing the table.
+- Bob has closed his Amazon account, so remove him after completing the table.
 
 ### clinic
 
 | id | firstName | lastName | weight | age |
 | --- | --- | --- | --- | --- |
-| 4231 | "Bob" |  "Bobbert" | 180.5 | 20 |
-| 1578 | "Carl" | "Carlton" | 201.3 | 24 |
-| 2697 | "Jane" | "Janeson" | 130.6 | 21 |
-| 7852 | "Dan" | "Danbert" | 160.7 | 30 |
+| 4231 | 'Bob' |  'Bobbert' | 180.5 | 20 |
+| 1578 | 'Carl' | 'Carlton' | 201.3 | 24 |
+| 2697 | 'Jane' | 'Janeson' | 130.6 | 21 |
+| 7852 | 'Dan' | 'Danbert' | 160.7 | 30 |
 
 **Complete the following tasks:**
 
 - Print out all patient information.
 
-- Jane has moved to another clinic, so please remove her after completing the table.
+- Jane has moved to another clinic, so remove her after completing the table.
+
+<br>
+
+**Grading Criteria:**
+| Criteria | Points |
+|---|---|
+| You created the **amazon** table. | 15 |
+| You created the **clinic** table. | 15 |
+| Both **amazon** and **clinic** tables have multiple rows/entries. | 30 |
+| You wrote the necessary SQL queries to complete the assignment. | 40 |
+
+[How to Submit Assignments to GitHub](https://joselitoguardado.dev/3326/How_to_Submit_Assignments_to_GitHub.pdf)
